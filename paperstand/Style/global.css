@@ -1,0 +1,15 @@
+body {
+    background-color: #dce0dd;
+}
+
+textarea, input {
+    background-color: #adb1ac;
+}
+
+p {
+    color: #746f5e;
+}
+
+.error {
+    color: red;
+}
