@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/signin.css">
+    <link rel="icon" href="/assets/favicon.ico" />
+    <title>S'inscrire | Paperstand</title>
+</head>
+<body>
+    <header class="header">
+        <a href=""><img src="" alt=""></a>
+        <button>Se connecter</button>
+    </header>
+    <h2><p>S'inscrire</p></h2>
+    <div>
+        <form action="register.php" method="POST">
+          <label for="pseudo">Pseudo :</label>
+          <input type="text" name="pseudo" required><br><br>
+      
+          <label for="email">Adresse email :</label>
+          <input type="email" name="email" id="email" required>
+          <p id="email-error-message" class="error-message"></p><br>
+      
+          <label for="mot_de_passe">Mot de passe :</label>
+          <input type="password" name="mot_de_passe" required><br><br>
+      
+          <input type="submit" value="S'inscrire">
+        </form>
+    </div>
+</body>
+<script src="js/register.js"></script>
+</html>
